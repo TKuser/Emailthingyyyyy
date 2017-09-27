@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  EmailExample
+//  EmailExample 
 //
 //  Created by Emily Byrne on 9/18/17.
 //  Copyright © 2017 Byrne. All rights reserved.
