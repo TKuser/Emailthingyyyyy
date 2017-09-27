@@ -41,15 +41,17 @@ class MenuTVC: UITableViewController {
     }
 
     
+   
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "menuCell", for: indexPath)
-
+        
         // Configure the cell...
         let keywords = Array(dataDictionary.keys)
         cell.textLabel?.text = keywords[indexPath.row]
-
+        
         return cell
     }
+    
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //TODO: react to user selecting row

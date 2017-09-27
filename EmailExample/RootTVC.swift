@@ -24,9 +24,17 @@ class RootTVC: UITableViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-    }
+        self.navigationItem.rightBarButtonItem = self.editButtonItem
+        //dataDictionary.inbox.delete
+        //dataDictionary.trash.append
+       //  dataDictionary[2].insert("The cell selected", atIndex: 0) // send emial deleted to trash
+        //  dataDictionary[0].remove(at : 2)// delete at number pressed
+            }
 
+    @IBAction func ADD(_ sender: UIBarButtonItem) {
+    
+    //  dataDictionary[2].insert("The cell selected", atIndex: 0) // Add email to sent
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
